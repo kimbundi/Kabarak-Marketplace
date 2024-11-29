@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.navbar.logo{
-    width:150px;
+.logo{
+    width:70px;
 
 }
 .navbar-menu{
@@ -53,8 +53,8 @@ gap: 40px;
     right: -8px;
 }
 @media (max-width:1050px) {
-    .navbar .logo{
-        width: 140px;
+ .logo{
+        width: 70px;
     }
     .navbar-menu{
         gap:20px;
@@ -74,8 +74,8 @@ gap: 40px;
 }
 
 @media (max-width:900px) {
-    .navbar .logo{
-        width: 120px;
+    .logo{
+        width: 60px;
     }
     .navbar-menu{
         gap:15px;

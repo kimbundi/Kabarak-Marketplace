@@ -7,7 +7,8 @@ const Footer = () => {
      <div className="footer-content">
         <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem dolor id vitae, incidunt rerum nobis. Accusamus magnam, odit ipsam sapiente est unde error reiciendis commodi perferendis cumque quam delectus!</p>
+            <p> Welcome to kabarak marketplace, your trusted marketplace for high-quality second-hand items. We believe in sustainability and offering affordable alternatives while promoting the reuse and recycling of goods. Whether you're looking for pre-loved treasures or giving your items a second life, we’re here to make it easier. </p>
+
 
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
@@ -35,7 +36,7 @@ const Footer = () => {
      </div>
      <hr />
       <p className="footer-copyright">
-        Copyright 2024 &copy; Kim.com - All Right Reserved.
+        Copyright 2024 &copy; craftcodedesigners.com - All Right Reserved.
 
       </p>
     

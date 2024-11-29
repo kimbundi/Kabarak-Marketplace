@@ -78,14 +78,14 @@ toast.error(response.data.message)
           <div className="add-category flex-col">
          <p>Product category</p>
          <select onChange={onChangeHandler} name="category" >
-          <option value="Salad">Salad</option>
-          <option value="Rolls">Rolls</option>
-          <option value="Deserts">Deserts</option>
-          <option value="Sandwich">Sandwich</option>
-          <option value="Cake">Cake</option>
-          <option value="Pure Veg">Pure Veg</option>
-          <option value="Pasta">Pasta</option>
-          <option value="Noodles">Noodles</option>
+          <option value="HouseholdItems">HouseholdItems</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Beds and Furnitures">Beds and Furnitures</option>
+          <option value="Mattress">Mattress</option>
+          <option value="Skyplast">Skyplast</option>
+          <option value="Gas Cylinders">Gas Cylinders</option>
+          <option value="Tables">Tables</option>
+          <option value="Plastic Chairs">Plastic Chairs</option>
 
          </select>
 
