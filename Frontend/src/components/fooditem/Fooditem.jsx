@@ -16,11 +16,12 @@ const Fooditem = ({id,name,price,description,image}) => {
     
     <div className='food-item'>
         <div className="food-item-img-container">
+             {console.log(`${baseURL}/images/${image}`)}
         <img
   className="food-item-image"
   src={`${baseURL}/images/${image}`}
   alt={name}
-/>
+
  
      
              
