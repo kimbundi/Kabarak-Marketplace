@@ -1,5 +1,9 @@
 Frontend link
 https://kabarakmarketplace.onrender.com
+Backend Link
+https://kabarakmarketplace-backend.onrender.com
+Admin panel
+
 
 
 
