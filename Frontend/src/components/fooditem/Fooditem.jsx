@@ -2,7 +2,7 @@ import React, { useContext} from 'react'
 import "./Fooditem.css";
 import { assets } from '../../assets/assets';
 import { Storecontext } from '../../context/Storecontext';
-const baseURL = "https://kabarakmarketplace.onrender.com";
+
 
 
 
@@ -15,11 +15,10 @@ const Fooditem = ({id,name,price,description,image}) => {
     
     <div className='food-item'>
         <div className="food-item-img-container">
-        console.log(`${baseURL}/images/${image}`);
+         <img  className="food-item-image" 
             
-            <img  className="food-item-image" 
-                 src={`${baseURL}/images/${image}`}
-  alt={name}
+            src={`http://localhost:4000/images/${image}`} 
+            alt={name} 
      
              
           />
