@@ -2,7 +2,7 @@ import React, { useContext} from 'react'
 import "./Fooditem.css";
 import { assets } from '../../assets/assets';
 import { Storecontext } from '../../context/Storecontext';
-const baseURL = "https://kabarakmarketplace.onrender.com";
+const baseURL = "https://kabarakmarketplace-backend.onrender.com";
 
 
 
