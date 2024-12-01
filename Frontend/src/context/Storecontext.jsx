@@ -9,7 +9,7 @@ export const Storecontext = createContext(null)
 const StorecontextProvider = (props) => {
 
   const [cartItems, setCartItems] = useState({});
-  const url = " https://food-del-backend-0hk1.onrender.com"
+  const url = " https://kabarakmarketplace-backend.onrender.com"
   const [token,setToken] = useState("");
   const [food_list,setFoodList] = useState([])
 
