@@ -15,7 +15,16 @@ const port = process.env.PORT || 4000;
 
 //middleware
 app.use(express.json())
-app.use(cors())
+
+
+// Allow requests from your frontend domain
+const corsOptions = {
+    origin: 'https://kabarakmarketplace.onrender.com', // Frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+  };
+app.use(cors(corsOptions));
+
 
 //db connection
 connectDB();
