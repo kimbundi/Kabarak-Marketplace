@@ -1,3 +1,9 @@
+Frontend link
+https://kabarakmarketplace.onrender.com
+
+
+
+
 A platform designed for students to buy second-hand items at affordable prices. This website connects sellers and buyers, providing an easy-to-use interface and ensuring the delivery of purchased items to students.
 
 Features
