@@ -2,8 +2,12 @@ import React, { useContext} from 'react'
 import "./Fooditem.css";
 import { assets } from '../../assets/assets';
 import { Storecontext } from '../../context/Storecontext';
+const url = "https://your-render-domain.com";
+
+
 
 const Fooditem = ({id,name,price,description,image}) => {
+     const url = "https://kabarakmarketplace.onrender.com";
     
     const {cartItems,addToCart,removeFromCart,url} = useContext(Storecontext);
   return (
@@ -14,9 +18,11 @@ const Fooditem = ({id,name,price,description,image}) => {
         {console.log(`${url}/images/${image}`)}
             
             <img  className="food-item-image" 
+               
+ src={`${url}/images/${image}`} 
+
             
-            src={`http://localhost:4000/images/${image}`} 
-            alt={name} 
+             
           />
            
             
